@@ -15,11 +15,13 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+          className="mt-16"
         >
           <img
             src={heroImage}
             alt="Profile"
             className="w-56 h-56 md:w-64 md:h-64 rounded-full border-4 border-cyan-500 shadow-lg mb-8 object-cover mx-auto"
+            style={{ objectPosition: "center 10%" }}
           />
         </motion.div>
 
